@@ -1,0 +1,114 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+
+.appointment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 85%;
+  border-radius: 12px;
+  min-width: 550px;
+}
+
+.appointment-inputs-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.heading {
+  color: #171f46;
+  font-size: 22px;
+  font-family: Roboto;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text {
+  color: #171f46;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.title-input{
+  color: #131415;
+  font-size: 12px;
+  font-family: Roboto;
+  height: 40px;
+  outline: none;
+  padding-left: 16px;
+  padding-top: 8px;
+  margin-bottom: 24px;
+}
+
+.add-button{
+  align-self: flex-start;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  padding-top: 8px;
+}
+
+.image{
+  display: none;
+}
+
+@media screen and (min-width: 768px){
+  .image{
+    display: block;
+    width: 49%;
+  }
+}
+
+.hr{
+  border: 1px solid #b5b7c4;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 32px;
+}
+
+.filter-style{
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  padding-top: 4px;
+}
+
+.filter-filled{
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty{
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
+
+.appointments-list{
+  display: flex;
+  flex-direction: column;
+}
